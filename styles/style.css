@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#D5E9F3;
+}
+/* Header */
+.header{
+    background-color: #191F21;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header a, li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+.logo-header img{
+    height: 70px;
+    margin-left: -35px;
+}
+.menu-header ol{
+    margin-right: 20px;
+    display: flex;
+}
+.menu-header li{
+    margin: 5px;
+    display: inline;
+}
+/* Secciones */
+.secciones{
+    background-color: white;
+    margin: 0 4%;
+}
+/* Seccion Principal */
+.principal{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.principal-presentacion{
+    width: 50%;
+    background-color: #333F43;
+    color: white;
+    font-size: 32px;
+    padding: 90px 30px 0px;
+}
+
+.principal-presentacion p{
+    margin: 0px;
+}
+
+.presentacion-nombre{
+    color: #388B7A;
+}
+.presentacion-info{
+    color: #9F3B3B;
+}
+.imagen{
+    background-color: #C2A9A9;
+    width: 50%;
+}
+/* Seccion Extracto */
+.extracto{
+    margin-bottom: 50px;
+    padding: 0 40px;
+}
+.extracto-info{
+    margin-top: 20px;
+    background-color: #D5E9F3;
+    height: 100px;
+    color: #333F43;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 40px 40px;
+    display: flex;
+    border-radius: 20px;
+}
+/*Titulos h1*/
+.extracto-titulo{
+    border: 1px solid;
+    background-color: #333F43;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.extracto-titulo{
+    width: 200px;
+}
+/* Seccion Experiencia */
+.experiencia{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.experiencia-titulo{
+    border: 1px solid;
+    background-color: #333F43;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 14px;
+}
+.experiencia-labores{
+    display: contents;
+    flex-wrap: wrap;
+}
+.experiencia-labor{
+    margin: 10px 30px;
+    flex-shrink: 0;
+    background-color: #D5E9F3;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.experiencia-labor p{
+    color: #9F3B3B;
+    font-weight: 900;
+}
+.detalles-labor{
+    text-align: center;
+    height: 90%;
+    width: 90%;
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.empresa-nombre{
+    background-color: #333F43;
+    font-size: 14px;
+    color: white;
+    height: 15%;
+    width: 100%;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+.empresa-descripcion{
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.empresa-descripcion p{
+    font-size: 16px;
+    font-weight: 900;
+    color: #333F43;
+}
+.botones{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.botton{
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 6px;
+    background-color: #388B7A;
+}
+.botton a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+/* Footer */
+.footer{
+    background-color: #191F21;
+    height: 80px;
+}
