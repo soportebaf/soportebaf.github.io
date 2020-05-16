@@ -4,6 +4,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color:#D5E9F3;
 }
+/*Portada*/
+.imagen img{
+    height: 400px;
+}
 /* Header */
 .header{
     background-color: #191F21;
@@ -62,7 +66,7 @@ body{
     color: #9F3B3B;
 }
 .imagen{
-    background-color: #C2A9A9;
+    background-color: #333F43;
     width: 50%;
 }
 /* Seccion Extracto */
@@ -118,7 +122,7 @@ body{
     flex-wrap: wrap;
 }
 .reporte-labor{
-    margin: 10px 30px;
+    margin: 10px 10px;
     flex-shrink: 0;
     background-color: #D5E9F3;
     width: 350px;
