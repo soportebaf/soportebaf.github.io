@@ -38,7 +38,7 @@ body{
 /* Secciones */
 .secciones{
     background-color: white;
-    margin: 0 4%;
+    margin: 0 3%;
 }
 /* Seccion Principal */
 .principal{
@@ -115,7 +115,7 @@ body{
     text-align: center;
     border-radius: 50px;
     width: 100%;
-    font-size: 14px;
+    font-size: 12px;
 }
 .reporte-nuevo{
     display: contents;
@@ -125,8 +125,8 @@ body{
     margin: 10px 10px;
     flex-shrink: 0;
     background-color: #D5E9F3;
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -147,7 +147,7 @@ body{
 }
 .reporte-nombre{
     background-color: #333F43;
-    font-size: 14px;
+    font-size: 10px;
     color: white;
     height: 15%;
     width: 100%;
@@ -167,7 +167,7 @@ body{
 }
 .reporte-descripcion p{
     margin: 10px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 900;
     color: #333F43;
 }
