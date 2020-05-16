@@ -24,7 +24,7 @@ body{
     font-weight: 500;
 }
 .logo-header img{
-    height: 70px;
+    height: 50px;
     margin-left: -35px;
 }
 .menu-header ol{
@@ -80,7 +80,7 @@ body{
     height: 100px;
     color: #333F43;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 14px;
     padding: 40px 40px;
     display: flex;
     border-radius: 20px;
