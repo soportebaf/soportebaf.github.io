@@ -38,7 +38,7 @@ body{
 /* Secciones */
 .secciones{
     background-color: white;
-    margin: 0 3%;
+    margin: 0 5%;
 }
 /* Seccion Principal */
 .principal{
@@ -132,6 +132,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    border-radius: 0px 0px 15px 15px;
 }
 .reporte-labor p{
     color: #9F3B3B;
