@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:#D5E9F3;
+}
+/* Header */
+.header{
+    background-color: #191F21;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.header a, li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+.logo-header img{
+    height: 50px;
+    margin-left: -35px;
+}
+.menu-header ol{
+    margin-right: 20px;
+    display: flex;
+}
+.menu-header li{
+    margin: 5px;
+    display: inline;
+}
+/*Secciones*/
+.secciones{
+    background-color: white;
+    margin: 0 5%;
+}
+/*Titulos*/
+.titulo{
+    text-align: center;
+    color: #191F21;
+    font-size: 16px;
+    margin: 6px 1px;
+    padding: 1px;
+}
+.sub-titulo{
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    font-size: 16px;
+}
+/*Contenedores*/
+.aplicativos{
+    display: flex;
+    height: 450px;
+}
+.contenedor-apl{
+    height: 400px;
+    width: 50%;
+    margin: 20px;
+}
+.sub-titulo-box{
+    margin: 0 auto;
+    background-color: #191F21;
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 1px;
+}
+.links-apl{
+    display: flex;
+}
+/*Apps*/
+.app{
+    background-color: #388B7A;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    color: white;
+    align-items: center;
+}
+.app img{
+    border: 1px #388B7A solid;
+    width: 95px;
+    height: 95px;
+}
+a, li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 800;
+}
+.app p{
+    text-align: center;
+}
+ol{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Asignacion*/
+.descripcion-asig p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #9F3B3B;
+}
+.maquinas-asig{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer{
+    background-color: #191F21;
+    height: 80px;
+}
